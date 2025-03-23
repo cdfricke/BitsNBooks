@@ -46,7 +46,7 @@ CREATE TABLE Book (
 	NumReviews 				INT,
 	PublisherID				INT,
 	Primary Key(ISBN),
-	FOREIGN KEY(PublisherID) REFERENCES(Book.PublisherID)
+	FOREIGN KEY(PublisherID) REFERENCES Book(PublisherID)
 );
 
 
