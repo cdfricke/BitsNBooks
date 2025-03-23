@@ -36,7 +36,7 @@ CREATE TABLE Review(
 
 CREATE TABLE Book (
 	ISBN 					CHAR(10) 		NOT NULL,
-	EditionNumber 			INT,
+	EditionNumber 			CHAR(3),
 	Title 					VARCHAR(32)		NOT NULL,
 	Quantity 				INT,
 	PublicationYear 		INT,
