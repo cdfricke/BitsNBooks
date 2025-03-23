@@ -44,7 +44,9 @@ CREATE TABLE Book (
 	Price 					DECIMAL(2,2)	NOT NULL,
 	Languages 				VARCHAR(16),
 	NumReviews 				INT,
-	Primary Key(ISBN)
+	PublisherID				INT,
+	Primary Key(ISBN),
+	FOREIGN KEY(PublisherID) REFERENCES(Book.PublisherID)
 );
 
 
@@ -90,7 +92,7 @@ CREATE TABLE Contains (
 	TransactionID			INT				NOT NULL,
 	ISBN					CHAR(10)		NOT NULL,
 	Qty						INT				NOT NULL,
-	FOREIGN KEY (TransactionID) REFERENCES Transactions(Transaction_ID)
+	FOREIGN KEY (TransactionID) REFERENCES Transactions(TransactionID)
 );
 
 CREATE TABLE StoredIn (
