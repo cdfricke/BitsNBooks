@@ -5,7 +5,7 @@ CREATE TABLE Customer(
 	ShippingBillingAddress 	VARCHAR(64)     NOT NULL,
 	CreditCardInfo 		    VARCHAR(64)		NOT NULL,
 	Email 				    VARCHAR(32),
-	Phone 				    VARCHAR(16),
+	Phone 				    CHAR(10),
 	Primary Key(CID)
 );
 
