@@ -1,0 +1,21 @@
+PublisherID,City,Street,PublisherName,email,phone
+0,Columbus,Main St,Sybex,sybex@press.com,3302223333
+1,Manhattan,High St,McGraw-Hill Osborne Media,mcgh@gmail.com,2162223334
+2,Manhattan,South St,John Wiley & Sons,contact@jw.com,3302223335
+3,Oslo,5th Ave,Morgan Kaufmann,morgan@kaufman.com,2162223336
+4,Manhattan,Norwich Rd,"Schmidt Ink, Inc.",Shmink@google.org,6142223337
+5,Anaheim,9th Ave,Addison-Wesley Pub Co,AWPub@press.com,6142223338
+6,Oslo,1st Ave,Macromedia Press,contactus@macromedia.com,1112223339
+7,Anaheim,Main St,Addison-Wesley Publishing,AWPco@gmail.com,1112223330
+8,New York City,High St,Wrox Press Inc,hello@wrox.com,2112223333
+9,Manhattan,South St,Berkley Pub Group,BPG-contact@msn.com,2322223333
+10,New York City,5th Ave,Penguin USA ,PUSA@penguin.com,1122223333
+11,Oslo,Norwich Rd,O'Reilly & Associates,norwich@oreilly.com,2224445555
+12,New York City,9th Ave,Picador,picador@picador.com,1123456789
+13,Manhattan,1st Ave,St. Martin's Press,st-mr@manhattan.gov,6194560550
+14,Manhattan,Main St,Crown Pub,crown@pub.com,1004560001
+15,New York City,High St,Little Brown & Company,LBC@yahoo.com,1004560002
+16,Oslo,South St,Simon & Schuster,Sschuster@gmail.com,2144560003
+17,New York City,5th Ave,HarperCollins,HarperCollins@gmail.com,2214560004
+18,Anaheim,Norwich Rd,Jossey-Bass,JBss@jossey.com,1004560005
+19,Manhattan,9th Ave,Multnomah Publishers Inc.,Multnomah@falls.com,2924560006
