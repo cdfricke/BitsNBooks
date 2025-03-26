@@ -1,0 +1,132 @@
+a. Provide a list of customer names, along with the total dollar amount each customer has spent.
+SELECT FirstName, LastName, SUM(Transactions.TotalPrice) as TotalSpent
+FROM Customer
+NATURAL JOIN Transactions
+GROUP BY CID;
+
+
+
+b. Provide a list of customer names and e-mail addresses for customers who have spent more than the average customer.
+SELECT FirstName, LastName, Email
+FROM Customer
+NATURAL JOIN Transactions
+GROUP BY CID
+HAVING SUM(Transactions.TotalPrice) > (
+	SELECT AVG(TotalSpent)
+	FROM (
+		SELECT SUM(Transactions.TotalPrice) as TotalSpent
+		FROM Transactions
+		GROUP BY CID
+	)
+);
+
+
+
+c. Provide a list of the titles in the database and associated total copies sold to customers, sorted from the title that has sold the most individual copies to the title that has sold the least.
+SELECT Title, SUM(Contains.Qty) as TotalSold
+FROM Book
+NATURAL JOIN Contains
+GROUP BY Title
+ORDER BY TotalSold DESC;
+
+
+
+d. Provide a list of the titles in the database and associated dollar totals for copies sold to customers, sorted from the title that has sold the highest dollar amount to the title that has sold the smallest.
+SELECT Title, SUM(Transactions.TotalPrice) as TotalSold
+FROM Book
+NATURAL JOIN Contains
+NATURAL JOIN Transactions
+GROUP BY Title
+ORDER BY TotalSold DESC;
+
+
+
+e. Find the most popular author in the database (i.e. the one who has sold the most books)
+SELECT AuthorName
+FROM Author
+NATURAL JOIN WrittenBy
+NATURAL JOIN Book
+NATURAL JOIN Contains
+GROUP BY AuthorName
+HAVING Contains.Qty = (
+	SELECT MAX(Contains.Qty)
+	FROM Author
+NATURAL JOIN WrittenBy
+NATURAL JOIN Book
+NATURAL JOIN Contains
+GROUP BY AuthorName
+);
+
+
+
+f. Find the most profitable author in the database for this store (i.e. the one who has brought in the most money)
+SELECT AuthorName
+FROM Author
+NATURAL JOIN WrittenBy
+NATURAL JOIN Book
+NATURAL JOIN Contains
+NATURAL JOIN Transactions
+GROUP BY AuthorName
+HAVING TotalPrice = (
+	SELECT MAX(TotalPrice)
+	FROM Author
+NATURAL JOIN WrittenBy
+NATURAL JOIN Book
+NATURAL JOIN Contains
+NATURAL JOIN Transactions
+GROUP BY AuthorName
+);
+
+
+
+g. Provide a list of customer information for customers who purchased anything written by the most profitable author in the database.
+SELECT FirstName, LastName, Email, Phone, ShippingBillingAddress, CreditCardInfo
+FROM Customer
+NATURAL JOIN Transactions
+NATURAL JOIN Contains
+NATURAL JOIN Book
+NATURAL JOIN WrittenBy
+NATURAL JOIN Author
+WHERE AuthorName = (
+	SELECT AuthorName
+	FROM Author
+	NATURAL JOIN WrittenBy
+NATURAL JOIN Book
+NATURAL JOIN Contains
+NATURAL JOIN Transactions
+GROUP BY AuthorName
+	HAVING TotalPrice =  (
+		SELECT MAX(TotalPrice)
+		FROM Author
+NATURAL JOIN WrittenBy
+NATURAL JOIN Book
+NATURAL JOIN Contains
+NATURAL JOIN Transactions
+GROUP BY AuthorName
+)
+	);
+
+
+
+h. Provide the list of authors who wrote the books purchased by the customers who have spent more than the average customer.
+SELECT AuthorName
+FROM Author
+NATURAL JOIN WrittenBy
+NATURAL JOIN Book
+NATURAL JOIN Contains
+NATURAL JOIN Transactions
+NATURAL JOIN Customer
+WHERE CID IN (
+	SELECT CID
+	FROM Customer
+	NATURAL JOIN Transactions
+	GROUP BY CID
+	HAVING SUM(TotalPrice) > (
+		SELECT AVG(TotalSpent)
+		FROM (
+			SELECT SUM(TotalPrice) as TotalSpent
+			FROM Transactions
+			GROUP BY CID
+		)
+	)
+);
