@@ -1,0 +1,51 @@
+a. Find the titles of all books by Pratchett that cost less than $10
+SELECT Title FROM Book
+NATURAL JOIN WrittenBy
+NATURAL JOIN Author
+WHERE Title LIKE ‘%Pratchett%’ AND Price < 10;
+
+
+b. Give all the titles and their dates of purchase made by a single customer (you choose how to designate the customer)
+SELECT Title, DateTimeSale
+FROM Book NATURAL JOIN Contains
+NATURAL JOIN Transactions
+WHERE CID = 1;
+
+
+c. Find the titles and ISBNs for all books with less than 5 copies in stock
+SELECT Title, ISBN
+FROM Book
+WHERE Quantity < 5;
+
+
+d. Give all the customers who purchased a book by Pratchett and the titles of Pratchett books they purchased
+SELECT FirstName, LastName, Title
+FROM Customer NATURAL JOIN Transactions
+NATURAL JOIN Contains
+NATURAL JOIN Book
+NATURAL JOIN WrittenBy
+NATURAL JOIN Author
+WHERE Title LIKE ‘%Pratchett%’;
+
+
+e. Find the total number of books purchased by a single customer (you choose how to designate the customer)
+SELECT Sum(Qty)
+FROM Transactions NATURAL JOIN Contains
+WHERE CID = 1;
+
+
+f. Find the customer who has purchased the most books and the total number of books they have purchased
+SELECT FirstName, LastName, TotalBooks
+From Customer NATURAL JOIN (
+SELECT CID, Sum(Qty) as TotalBooks 
+FROM Transactions NATURAL JOIN Contains
+GROUP BY CID
+)
+WHERE TotalBooks = ( 
+	SELECT MAX (TotalBooks)
+	FROM (
+		SELECT CID, Sum(Qty) as TotalBooks 
+FROM Transactions NATURAL JOIN Contains
+GROUP BY CID
+)
+)
