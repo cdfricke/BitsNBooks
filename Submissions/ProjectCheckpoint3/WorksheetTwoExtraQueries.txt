@@ -1,0 +1,27 @@
+1) Find all Warehouses that store books written by Pratchett
+SELECT City, Street
+FROM Warehouse
+NATURAL JOIN StoredIn
+NATURAL JOIN WrittenBy
+NATURAL JOIN Author
+WHERE AuthorName LIKE ‘%Pratchett%’;
+
+
+
+2) Find the average number of reviews written by customers
+SELECT AVG(ReviewCount)
+FROM (
+	SELECT CID, COUNT(*) AS ReviewCount
+	FROM Review
+	GROUP BY CID
+);
+
+
+
+3) Find the average review score for books written by Pratchett
+SELECT AVG(Score)
+FROM Review
+NATURAL JOIN Book
+NATURAL JOIN WrittenBy
+NATURAL JOIN Author
+WHERE AuthorName LIKE ‘%Pratchett%’;
