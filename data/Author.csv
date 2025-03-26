@@ -1,36 +1,51 @@
 AuthorID,AuthorName,DateOfBirth,Nationality
-1,Chip Dawes,1965-04-12,American
-2,Biju Thomas,1972-07-19,Indian
-3,Doug Stuns,1958-03-25,American
-4,Matthew Weishan,1980-09-14,Canadian
-5,Joseph C. Johnson,1962-11-30,British
-6,Brian Knight,1975-06-22,American
-7,Ralph Kimball,1944-10-09,American
-8,Margy Ross,1968-05-17,American
-9,Bill Mann,1950-08-29,Australian
-10,Ian H. Witten,1947-12-05,New Zealander
-11,Eibe Frank,1970-02-18,German
-12,Robert D. Schmidt,1961-07-23,American
-13,Ken Henderson,1955-09-10,American
-14,Paul Litwin,1963-01-27,American
-15,Ken Getz,1967-08-15,American
-16,Mike Gunderloy,1960-04-05,American
-17,Ben Forta,1964-03-12,British
-18,Nate Weiss,1978-06-30,American
-19,Leon Chalnick,1959-02-22,Canadian
-20,Angela C. Buraglia,1982-07-14,American
-21,Ramez A. Elmasri,1950-11-03,Egyptian
-22,Shamkant B. Navathe,1949-05-21,Indian
-23,Rob Vieira,1971-08-09,American
-24,Paul DuBois,1965-09-24,American
-25,Laurell K. Hamilton,1963-02-19,American
-26,Sue Monk Kidd,1948-08-12,American
-27,Tara Calishain,1973-03-28,American
-28,Rael Dornfest,1976-07-07,American
-29,Jay P. Decima,1952-05-09,American
-30,Wladyslaw Szpilman,1911-12-05,Polish
-31,Roma Ligocka,1938-11-13,Polish
-32,Michael Cunningham,1952-11-06,American
-33,Larry Bossidy,1935-04-05,American
-34,Ram Charan,1941-06-20,Indian
-35,Charles Burck,1960-09-02,British
+1,Chip Dawes,3/21/1970,American
+2,Biju Thomas,7/14/1965,Indian
+3,Doug Stuns,1/30/1980,American
+4,Matthew Weishan,11/22/1979,American
+5,Joseph C. Johnson,5/18/1972,American
+6,Brian Knight,9/10/1983,British
+7,Ralph Kimball,6/15/1944,American
+8,Margy Ross,4/25/1967,American
+9,Bill Mann,8/12/1975,Canadian
+10,Ian H. Witten,2/3/1950,New Zealander
+11,Eibe Frank,7/9/1968,German
+12,Robert D. Schmidt,12/5/1973,American
+13,Ken Henderson,6/20/1960,American
+14,Paul Litwin,3/28/1972,American
+15,Ken Getz,10/14/1965,American
+16,Mike Gunderloy,11/19/1958,American
+17,Ben Forta,7/30/1964,British
+18,Nate Weiss,9/5/1982,American
+19,Leon Chalnick,5/11/1971,American
+20,Angela C. Buraglia,12/22/1980,American
+21,Ramez A. Elmasri,1/8/1950,Egyptian
+22,Shamkant B. Navathe,4/11/1947,Indian
+23,Rob Vieira,7/29/1973,American
+24,Paul DuBois,8/15/1960,American
+25,Laurell K. Hamilton,2/19/1963,American
+26,Sue Monk Kidd,8/12/1948,American
+27,Tara Calishain,9/25/1975,American
+28,Rael Dornfest,6/14/1973,American
+29,Jay P. Decima,11/23/1955,American
+30,Wladyslaw Szpilman,12/5/1911,Polish
+31,Roma Ligocka,1/13/1938,Polish
+32,Michael Cunningham,11/6/1952,American
+33,Larry Bossidy,6/5/1935,American
+34,Ram Charan,9/18/1940,Indian
+35,Charles Burck,5/4/1961,American
+36,James Patterson,3/22/1947,American
+37,Andrew Gross,10/18/1952,American
+38,Jeffery Deaver,5/6/1950,American
+39,Jacquelyn Mitchard,12/10/1956,American
+40,Patrick Lencioni,5/24/1965,American
+41,Mary Higgins Clark,12/24/1927,American
+42,Dee Henderson,10/29/1959,American
+43,Ann Patchett,12/2/1963,American
+44,Karen Marie Moning,11/1/1964,American
+45,Suzanne Brockmann,2/18/1960,American
+46,Steven Pinker,9/18/1954,Canadian
+47,Albert-László Barabási,3/30/1967,Hungarian
+48,Edward Osborne Wilson,6/10/1929,American
+49,Stephen Wolfram,8/29/1959,British-American
+50,Harold McGee,10/3/1951,American

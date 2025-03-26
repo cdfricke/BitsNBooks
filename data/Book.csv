@@ -1,21 +1,109 @@
-ISBN,Title,PublisherID,PublicationYear,Price,Category,EditionNumber,Quantity,Language,NumReviews
-0782140661,OCP: Oracle9i Certification Kit,0,2002,104.97,Computer,1st,13,English,166
-0072227885,SQL Server 2000 for Experienced DBA's,1,2003,34.99,Computer,1st,39,English,85
-0471200247,The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling,2,2002,50,Computer,1st,43,English,42
-0072227710,How To Do Everything with Your Tablet PC,1,2003,17.49,Computer,1st,0,English,175
-1558605525,Data Mining: Practical Machine Learning Tools and Techniques with Java Implementations,3,1999,49.95,Computer,1st,32,English,19
-0972263608,Creating Documents with BusinessObjects 5.1,4,2002,99,Computer,1st,42,English,148
-0201615762,The Guru's Guide to Transact-SQL,5,2000,38.49,Computer,1st,38,English,196
-0782140114,Access 2002 Developer's Handbook Set,0,2001,69.99,Computer,1st,31,English,176
-0321125169,ColdFusion MX Web Application Construction Kit,6,2002,38.49,Computer,1st,0,English,128
-0805317554,Fundamentals of Database Systems,7,1999,95,Computer,1st,21,English,96
-1861004486,Professional SQL Server 2000 Programming,8,2000,41.99,Computer,1st,48,English,160
-0735712123,MySQL,7,2003,34.99,Computer,1st,49,English,114
-0425188361,Cerulean Sins,9,2003,16.07,Literature & Fiction,1st,10,English,5
-0142001740,The Secret Life of Bees,10,2003,14,Literature & Fiction,1st,5,English,155
-0596004478,Google Hacks,11,2003,24.95,Computer,1st,4,English,76
-0071414339,"Investing in Fixer-Uppers : A Complete Guide to Buying Low, Fixing Smart, Adding Value, and Selling (or Renting) High",12,2003,18.95,Accounting & Finance,1st,0,English,31
-0312311354,The Pianist,13,2003,13,Literature & Fiction,1st,35,English,197
-0312287941,The Girl in the Red Coat: A Memoir,12,2002,25.95,Literature & Fiction,1st,21,English,706
-0312243022,The Hours,14,2000,3.44,Literature & Fiction,1st,21,English,26
-0609610570,Execution: The Discipline of Getting Things Done,15,2002,27.5,Reference,1st,49,English,56
+ISBN,EditionNumber,Title,Quantity,PublicationYear,Category,Price,Languages,NumReviews,PublisherID
+0782140661,1st,OCP: Oracle9i Certification Kit,250,2002,Computer,104.97,English,974,1
+0072227885,1st,SQL Server 2000 for Experienced ,154,2003,Computer,34.99,English,115,2
+0471200247,1st,The Data Warehouse Toolkit: The ,32,2002,Computer,50,English,68,3
+0072227710,2nd,How To Do Everything with Your T,394,2003,Computer,17.49,English,143,2
+1558605525,4th,Data Mining: Practical Machine L,370,1999,Computer,49.95,English,582,4
+0972263608,2nd,Creating Documents with Business,37,2002,Computer,99,English,336,5
+0201615762,5th,The Guru's Guide to Transact-SQL,476,2000,Computer,38.49,English,767,6
+0782140114,1st,Access 2002 Developer's Handbook,254,2001,Computer,69.99,English,33,1
+0321125169,1st,ColdFusion MX Web Application Co,5,2002,Computer,38.49,English,969,7
+0805317554,1st,Fundamentals of Database Systems,279,1999,Computer,95,English,87,8
+1861004486,1st,Professional SQL Server 2000 Pro,367,2000,Computer,41.99,English,954,9
+0735712123,1st,MySQL,134,2003,Computer,34.99,English,901,8
+0425188361,1st,Cerulean Sins,477,2003,Literature & Fiction,16.07,English,166,10
+0142001740,2nd,The Secret Life of Bees,189,2003,Literature & Fiction,14,English,650,11
+0596004478,4th,Google Hacks,386,2003,Computer,24.95,English,568,12
+0071414339,1st,Investing in Fixer-Uppers : A Co,189,2003,Accounting & Finance,18.95,English,975,13
+0312311354,1st,The Pianist,489,2003,Literature & Fiction,13,English,584,14
+0312287941,1st,The Girl in the Red Coat: A Memo,225,2002,Literature & Fiction,25.95,English,4,15
+0312243022,2nd,The Hours,303,2000,Literature & Fiction,3.44,English,55,14
+0609610570,4th,Execution: The Discipline of Get,495,2002,Reference,27.5,English,431,16
+0316602051,2nd,The Jester,452,2003,Literature & Fiction,27.95,English,575,17
+0743222008,1st,The Vanished Man: A Lincoln Rhym,295,2003,Literature & Fiction,25,English,92,18
+0066214750,1st,Twelve Times Blessed,155,2003,Literature & Fiction,25.95,English,156,19
+0787960756,1st,The Five Dysfunctions of a Team:,391,2002,Accounting & Finance,13.2,English,266,20
+0743206061,1st,The Second Time Around,354,2003,Accounting & Finance,26,English,260,18
+1590520734,1st,The Rescuer: The O'Malley Series,40,2003,Romance,12.99,English,562,21
+0060934417,1st,Bel Canto: A Novel,287,2002,Romance,13.95,English,74,22
+0440237556,2nd,The Dark Highlander,432,2002,Romance,6.99,English,644,23
+0373272839,4th,Letters to Kelly,289,2003,Romance,4.75,English,73,24
+0670031518,2nd,The Blank Slate: The Modern Deni,10,2002,Science,27.95,English,669,25
+0738206679,5th,Linked: The New Science of Netwo,224,2002,Science,26,English,134,26
+067976867X,1st,Consilience: The Unity of Knowle,164,1999,Science,15,English,15,27
+0679450785,1st,The Future of Life,150,2002,Science,22,English,376,28
+1579550088,1st,A New Kind of Science,102,2002,Science,44.95,English,352,29
+0684843285,2nd,ON FOOD AND COOKING,416,1997,Science,22,English,15,30
+0471358983,4th,Building Construction Illustrate,58,2000,Home Design,40,English,556,3
+0394739698,2nd,A Field Guide to American Houses,4,1984,Home Design,24.95,English,229,31
+1586851322,5th,Prefab,310,2002,Home Design,39.95,English,992,32
+1586851357,1st,Cabins & Camps,182,2002,Home Design,60,English,317,32
+156158648X,1st,The New City Home: Smart Solutio,368,2003,Home Design,24.95,English,514,33
+0865659982,1st,Composers' Houses,468,1998,Home Design,50,English,36,34
+0517576600,1st,Color: Natural Palettes for Pain,378,1992,Home Design,50,English,278,35
+0262024829,1st,Financial Modeling ,5,2000,Accounting & Finance,70,English,85,36
+0072294337,1st,Financial Markets & Corporate St,241,2001,Accounting & Finance,122.5,English,907,37
+0072315318,2nd,Analysis for Financial Managemen,187,2000,Accounting & Finance,79.2,English,380,37
+0324107501,4th,Advanced Accounting,487,2001,Accounting & Finance,112.95,English,351,38
+0471363049,2nd,Intermediate Accounting,32,2001,Accounting & Finance,139.2,English,933,3
+0130323519,1st,Financial Reporting and Analysis,193,2001,Accounting & Finance,126.67,English,261,39
+0446527793,1st,The Guardian,439,2003,Literature & Fiction,24.95,English,752,40
+0743244249,2nd,Cosmopolis: A Novel,414,2003,Literature & Fiction,25,English,503,41
+0743467523,4th,Dreamcatcher,207,2003,Horror,7.99,English,582,42
+0375703764,2nd,House of Leaves,171,2000,Horror,19.95,English,438,43
+0345452089,5th,The Vampire's Violin,59,2003,Horror,6.99,English,412,44
+0385504470,1st,Lullaby: A Novel,211,2002,Horror,17.47,English,245,45
+0312276702,1st,Jinn: A Novel,64,2003,Horror,24.95,English,5,15
+0743457358,1st,Everything's Eventual: 14 Dark T,5,2002,Horror,7.99,English,925,42
+1880418568,2nd,Wolves of the Calla ,399,2003,Horror,35,English,973,46
+0743455967,4th,On Writing,57,2002,Horror,7.99,English,967,42
+0140077022,2nd,White Noise ,219,1991,Literature & Fiction,14,English,739,11
+0679722955,1st,The Names,383,1989,Literature & Fiction,11.2,English,234,47
+0684848155,1st,UNDERWORLD: A NOVEL,144,1998,Literature & Fiction,16,English,842,48
+0471286168,1st,"Architecture: Form, Space, and O",273,1996,Home Design,39.95,English,489,3
+0471288217,2nd,A Visual Dictionary of Architect,216,1996,Home Design,39.95,English,312,3
+0156006219,4th,The Magician's Assistant,484,1998,Romance,13,English,154,49
+0060540753,2nd,Patron Saint of Liars,409,2003,Romance,13.95,English,439,50
+0393318486,1st,How the Mind Works,317,1999,Science,17.95,English,861,51
+0060958332,1st,The Language Instinct: How the M,109,2000,Science,10.5,English,244,22
+0060958405,1st,Words and Rules: The Ingredients,479,2000,Science,15,English,318,22
+0393319407,2nd,The Diversity of Life,238,1999,Science,16.95,English,905,51
+067463442X,4th,On Human Nature,118,1988,Science,18.95,English,523,52
+0446608955,2nd,A Walk to Remember,9,2000,Literature & Fiction,6.99,English,487,40
+0446676098,5th,The Notebook,357,1999,Literature & Fiction,12.95,English,476,40
+0446606812,1st,Message in a Bottle,199,1999,Literature & Fiction,7.5,English,113,40
+0262521415,1st,Numerical Techniques in Finance,146,1989,Accounting & Finance,35,English,99,36
+0262232197,1st,Econometric Analysis of Cross Se,393,2001,Accounting & Finance,74.95,English,208,36
+0324113641,2nd,Introductory Econometrics: A Mod,331,2002,Accounting & Finance,107.95,English,979,38
+0471391123,4th,Beyond Coso : Internal Control t,119,2000,Accounting & Finance,50,English,867,3
+0130998516,2nd,Real World FPGA Design with Veri,274,1999,Computer,83,English,463,53
+1565924916,1st,Ldap System Administration,257,2003,Computer,39.95,English,5,12
+0735712360,1st,The Photoshop Book for Digital P,339,2003,Computer,39.99,English,177,54
+0735712379,1st,Photoshop 7 Down & Dirty Tricks,9,2002,Computer,39.99,English,878,54
+0735713170,1st,Mac OS X v. 10.2 Jaguar Killer T,445,2002,Computer,29.99,English,966,54
+1558606432,2nd,Persuasive Technology: Using Com,461,2002,Computer,34.95,English,531,4
+0072222743,4th,A+ Certification All-in-One Exam,466,2002,Computer,59.99,English,610,2
+0345409469,2nd,The Demon-Haunted World: Science,222,1997,Science,14.95,English,375,55
+0375508325,5th,Cosmos,430,2002,Science,35,English,565,27
+0345336895,1st,Broca's Brain: Reflections on th,181,1993,Science,6.99,English,235,56
+0671004107,1st,Contact,350,1997,Science,7.99,English,400,42
+0345376595,1st,Pale Blue Dot: A Vision of the H,407,1997,Science,12.95,English,174,55
+0316666343,1st,The Lovely Bones: A Novel,173,2002,Literature & Fiction,21.95,English,544,17
+0316096199,2nd,Lucky: A Memoir,471,2002,Literature & Fiction,11.95,English,703,57
+038572179X,4th,Atonement,26,2003,Literature & Fiction,14,English,850,58
+0385494246,2nd,Amsterdam,84,1999,Literature & Fiction,12,English,92,58
+0385494327,5th,Black Dogs,223,1999,Literature & Fiction,14,English,149,58
+0385494149,1st,Enduring Love,209,1999,Literature & Fiction,13,English,478,58
+0399149848,1st,Birthright,362,2003,Literature & Fiction,25.95,English,884,59
+0373218192,1st,Engaging The Enemy,270,2003,Literature & Fiction,7.5,English,779,60
+0373218257,1st,Love By Design,167,2003,Literature & Fiction,14.95,English,127,24
+0399149392,2nd,Chesapeake Blue,237,2002,Literature & Fiction,25.95,English,958,59
+1561584029,4th,The Complete Illustrated Guide t,493,2001,Home Design,39.95,English,762,33
+1579902944,2nd,Choosing & Using Hand Tools,246,2002,Home Design,19.95,English,523,61
+1561586196,1st,Building a Shed,186,2003,Home Design,19.95,English,736,33
+0061092177,1st,Small Gods,63,1994,Fantasy,7.99,English,774,62
+0060502935,1st,Going Postal,80,2005,Fantasy,7.99,English,173,62
+0061020656,2nd,Pyramids,349,2001,Fantasy,7.99,English,845,62
+0060855925,4th,The Color of Magic,207,2005,Fantasy,13.99,English,232,62
+0061020648,2nd,Guards! Guards!,75,2001,Fantasy,7.99,English,704,62
+0061161721,5th,Unseen Academicals,273,2010,Fantasy,7.99,English,719,62

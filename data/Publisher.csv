@@ -1,21 +1,63 @@
-PublisherID,City,Street,PublisherName,email,phone
-0,Columbus,Main St,Sybex,sybex@press.com,3302223333
-1,Manhattan,High St,McGraw-Hill Osborne Media,mcgh@gmail.com,2162223334
-2,Manhattan,South St,John Wiley & Sons,contact@jw.com,3302223335
-3,Oslo,5th Ave,Morgan Kaufmann,morgan@kaufman.com,2162223336
-4,Manhattan,Norwich Rd,"Schmidt Ink, Inc.",Shmink@google.org,6142223337
-5,Anaheim,9th Ave,Addison-Wesley Pub Co,AWPub@press.com,6142223338
-6,Oslo,1st Ave,Macromedia Press,contactus@macromedia.com,1112223339
-7,Anaheim,Main St,Addison-Wesley Publishing,AWPco@gmail.com,1112223330
-8,New York City,High St,Wrox Press Inc,hello@wrox.com,2112223333
-9,Manhattan,South St,Berkley Pub Group,BPG-contact@msn.com,2322223333
-10,New York City,5th Ave,Penguin USA ,PUSA@penguin.com,1122223333
-11,Oslo,Norwich Rd,O'Reilly & Associates,norwich@oreilly.com,2224445555
-12,New York City,9th Ave,Picador,picador@picador.com,1123456789
-13,Manhattan,1st Ave,St. Martin's Press,st-mr@manhattan.gov,6194560550
-14,Manhattan,Main St,Crown Pub,crown@pub.com,1004560001
-15,New York City,High St,Little Brown & Company,LBC@yahoo.com,1004560002
-16,Oslo,South St,Simon & Schuster,Sschuster@gmail.com,2144560003
-17,New York City,5th Ave,HarperCollins,HarperCollins@gmail.com,2214560004
-18,Anaheim,Norwich Rd,Jossey-Bass,JBss@jossey.com,1004560005
-19,Manhattan,9th Ave,Multnomah Publishers Inc.,Multnomah@falls.com,2924560006
+PublisherID,PublisherName,Street,City,State,Email,PhoneNumber
+1,Sybex,553 Broadway,Houston,TX,contact@sybex.books.org,+1-629-903-4852
+2,McGraw-Hill Osborne Media,641 Main St,Denver,CO,contact@mcgraw-hillosbornemedia.books.org,+1-691-167-8207
+3,John Wiley & Sons,549 Elm St,Houston,TX,contact@johnwiley&sons.publisher.com,+1-695-575-1689
+4,Morgan Kaufmann,282 Main St,Miami,FL,contact@morgankaufmann.publisher.com,+1-661-717-1693
+5,"Schmidt Ink, Inc.",489 Elm St,Chicago,IL,"contact@schmidtink,inc..publisher.com",+1-583-628-6724
+6,Addison-Wesley Pub Co,953 Broadway,San Francisco,CA,contact@addison-wesleypubco.books.org,+1-989-370-5078
+7,Macromedia Press,424 Park Ave,Houston,TX,contact@macromediapress.literature.net,+1-768-820-3870
+8,Addison-Wesley Publishing,322 Broadway,New York,NY,contact@addison-wesleypublishing.publisher.com,+1-671-898-6450
+9,Wrox Press Inc,993 Park Ave,Miami,FL,contact@wroxpressinc.publisher.com,+1-857-627-8114
+10,Berkley Pub Group,850 Broadway,Houston,TX,contact@berkleypubgroup.literature.net,+1-635-575-8771
+11,Penguin USA ,492 Main St,Chicago,IL,contact@penguinusa.publisher.com,+1-823-718-9280
+12,O'Reilly & Associates,663 Broadway,San Francisco,CA,contact@o'reilly&associates.books.org,+1-679-783-1734
+13,McGraw-Hill Trade,567 Elm St,Boston,MA,contact@mcgraw-hilltrade.publisher.com,+1-759-420-4547
+14,Picador,525 Park Ave,San Francisco,CA,contact@picador.publisher.com,+1-905-214-5722
+15,St. Martin's Press,812 Broadway,Houston,TX,contact@st.martin'spress.books.org,+1-300-289-8650
+16,Crown Pub,312 Elm St,Los Angeles,CA,contact@crownpub.publisher.com,+1-651-989-9638
+17,Little Brown & Company,986 Main St,San Francisco,CA,contact@littlebrown&company.books.org,+1-455-589-5645
+18,Simon & Schuster,280 Park Ave,Boston,MA,contact@simon&schuster.books.org,+1-799-602-4935
+19,HarperCollins,527 Park Ave,Los Angeles,CA,contact@harpercollins.literature.net,+1-787-405-4002
+20,Jossey-Bass,575 Elm St,Boston,MA,contact@jossey-bass.books.org,+1-269-347-7492
+21,Multnomah Publishers Inc.,667 Elm St,Miami,FL,contact@multnomahpublishersinc..books.org,+1-855-996-2036
+22,Perennial,280 Main St,Denver,CO,contact@perennial.literature.net,+1-362-465-3669
+23,Dell Pub Co,579 Main St,Chicago,IL,contact@dellpubco.books.org,+1-266-171-4703
+24,Harlequin,944 Elm St,Houston,TX,contact@harlequin.publisher.com,+1-420-914-9116
+25,Viking Press,807 Elm St,New York,NY,contact@vikingpress.publisher.com,+1-458-685-4508
+26,Perseus Publishing,299 Broadway,New York,NY,contact@perseuspublishing.literature.net,+1-638-719-5706
+27,Random House,546 Broadway,Seattle,WA,contact@randomhouse.literature.net,+1-878-536-6727
+28,Knopf,829 Broadway,Chicago,IL,contact@knopf.publisher.com,+1-343-261-7267
+29,"Wolfram Media, Inc.",253 Broadway,Houston,TX,"contact@wolframmedia,inc..publisher.com",+1-823-751-3593
+30,Fireside,885 Elm St,New York,NY,contact@fireside.books.org,+1-201-195-6696
+31,Random House Trade Paperbacks,596 Elm St,Houston,TX,contact@randomhousetradepaperbacks.books.org,+1-672-491-1569
+32,Gibbs Smith Publisher,514 Broadway,Seattle,WA,contact@gibbssmithpublisher.literature.net,+1-477-990-7978
+33,Taunton Pr,237 Main St,Houston,TX,contact@tauntonpr.literature.net,+1-442-357-1302
+34,Vendome Pr,603 Elm St,Denver,CO,contact@vendomepr.books.org,+1-316-447-1093
+35,Clarkson N. Potter,765 Park Ave,New York,NY,contact@clarksonn.potter.publisher.com,+1-998-773-7944
+36,MIT Press,258 Elm St,Houston,TX,contact@mitpress.books.org,+1-530-283-1028
+37,McGraw-Hill/Irwin,401 Elm St,Boston,MA,contact@mcgraw-hill/irwin.publisher.com,+1-471-745-6159
+38,South-Western College Pub,247 Park Ave,Los Angeles,CA,contact@south-westerncollegepub.publisher.com,+1-380-486-1661
+39,Prentice Hall,279 Main St,Boston,MA,contact@prenticehall.literature.net,+1-698-467-3417
+40,Warner Books,518 Elm St,San Francisco,CA,contact@warnerbooks.books.org,+1-849-718-7814
+41,Scribner,982 Main St,Houston,TX,contact@scribner.publisher.com,+1-384-526-2325
+42,Pocket Books,200 Broadway,Chicago,IL,contact@pocketbooks.literature.net,+1-794-271-8102
+43,Pantheon Books,876 Elm St,Seattle,WA,contact@pantheonbooks.literature.net,+1-983-457-1432
+44,Del Rey,812 Elm St,San Francisco,CA,contact@delrey.books.org,+1-312-800-1953
+45,Doubleday,991 Elm St,Denver,CO,contact@doubleday.literature.net,+1-731-480-7927
+46,"Donald M. Grant Publisher, Inc.",774 Elm St,San Francisco,CA,"contact@donaldm.grantpublisher,inc..literature.net",+1-510-347-8974
+47,Vintage Books,227 Park Ave,Houston,TX,contact@vintagebooks.literature.net,+1-536-268-7281
+48,Scribner Paperback Fiction,919 Park Ave,Chicago,IL,contact@scribnerpaperbackfiction.publisher.com,+1-822-802-1805
+49,Harvest Books,584 Main St,Boston,MA,contact@harvestbooks.publisher.com,+1-402-977-1998
+50,Harperperennial Library,349 Main St,Denver,CO,contact@harperperenniallibrary.publisher.com,+1-923-720-4498
+51,W.W. Norton & Company,799 Broadway,Chicago,IL,contact@w.w.norton&company.books.org,+1-720-689-5673
+52,Harvard Univ Pr,836 Broadway,San Francisco,CA,contact@harvardunivpr.publisher.com,+1-646-980-8450
+53,Prentice Hall PTR,319 Elm St,Boston,MA,contact@prenticehallptr.books.org,+1-657-263-1004
+54,New Riders Publishing,155 Park Ave,Seattle,WA,contact@newriderspublishing.books.org,+1-872-624-7810
+55,Ballantine Books ,292 Main St,Miami,FL,contact@ballantinebooks.books.org,+1-933-198-4085
+56,Ballantine Books,488 Main St,Houston,TX,contact@ballantinebooks.publisher.com,+1-846-520-2228
+57,Back Bay Books,546 Elm St,Miami,FL,contact@backbaybooks.books.org,+1-384-971-1637
+58,Anchor Books,650 Elm St,Miami,FL,contact@anchorbooks.books.org,+1-291-444-2735
+59,Putnam Pub Group,857 Main St,Chicago,IL,contact@putnampubgroup.publisher.com,+1-914-737-1816
+60,Silhouette,761 Main St,Denver,CO,contact@silhouette.publisher.com,+1-835-843-4107
+61,Lark Books,560 Elm St,New York,NY,contact@larkbooks.books.org,+1-476-729-1080
+62,Harper,131 Park Ave,Houston,TX,contact@harper.literature.net,+1-686-187-6144
