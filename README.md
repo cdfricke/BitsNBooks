@@ -18,7 +18,7 @@ For re-creating the database from scratch (for example if the DB binary file wer
 
 You may then import backup data stored in the CSV files under `data` (in DataGrip, right click on each table and click "Import Data from File(s)..."). Each CSV is named according to the relation that it belongs to.
 
-Running of the required queries is made easy by the stucture of this repository. For SQL script files and an explanatory README:\
+Running of the required queries is made easy by the stucture of this repository. For SQL script files and an explanatory README:
 
 &ensp; For simple queries, see `queries/simple/`.\
 &ensp; For advanced queries, see `queries/advanced/`.\
