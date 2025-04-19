@@ -1,12 +1,25 @@
 SELECT FirstName, LastName, Email, Phone, ShippingBillingAddress, CreditCardInfo
-FROM Customer * Transactions * Contains * Book * WrittenBy * Author
+FROM Customer
+NATURAL JOIN Transactions
+NATURAL JOIN Contains
+NATURAL JOIN Book
+NATURAL JOIN WrittenBy
+NATURAL JOIN Author
 WHERE AuthorName = (
 	SELECT AuthorName
-	FROM Transactions * Contains * Book * WrittenBy * Author
-    GROUP BY AuthorName
-	HAVING TotalPrice = (
+	FROM Author
+	NATURAL JOIN WrittenBy
+NATURAL JOIN Book
+NATURAL JOIN Contains
+NATURAL JOIN Transactions
+GROUP BY AuthorName
+	HAVING TotalPrice =  (
 		SELECT MAX(TotalPrice)
-		FROM Transactions * Contains * Book * WrittenBy * Author
-        GROUP BY AuthorName
-    )
-);
+		FROM Author
+NATURAL JOIN WrittenBy
+NATURAL JOIN Book
+NATURAL JOIN Contains
+NATURAL JOIN Transactions
+GROUP BY AuthorName
+)
+	);
