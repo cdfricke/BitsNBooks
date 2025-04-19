@@ -1,3 +1,4 @@
 SELECT Title, DateTimeSale
-FROM Transactions * Contains * Book
+FROM Book NATURAL JOIN Contains
+NATURAL JOIN Transactions
 WHERE CID = 1;
