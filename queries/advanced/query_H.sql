@@ -1,8 +1,14 @@
 SELECT AuthorName
-FROM Customer * Transactions * Contains * Book * WrittenBy * Author
+FROM Author
+NATURAL JOIN WrittenBy
+NATURAL JOIN Book
+NATURAL JOIN Contains
+NATURAL JOIN Transactions
+NATURAL JOIN Customer
 WHERE CID IN (
 	SELECT CID
-	FROM Customer * Transactions
+	FROM Customer
+	NATURAL JOIN Transactions
 	GROUP BY CID
 	HAVING SUM(TotalPrice) > (
 		SELECT AVG(TotalSpent)
