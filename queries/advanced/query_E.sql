@@ -1,8 +1,14 @@
 SELECT AuthorName
-FROM Author * WrittenBy * Book * Contains
+FROM Author
+NATURAL JOIN WrittenBy
+NATURAL JOIN Book
+NATURAL JOIN Contains
 GROUP BY AuthorName
 HAVING Contains.Qty = (
 	SELECT MAX(Contains.Qty)
-	FROM Author * WrittenBy * Book * Contains
-    GROUP BY AuthorName
+	FROM Author
+NATURAL JOIN WrittenBy
+NATURAL JOIN Book
+NATURAL JOIN Contains
+GROUP BY AuthorName
 );
