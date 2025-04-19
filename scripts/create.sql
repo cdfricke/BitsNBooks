@@ -2,10 +2,15 @@ CREATE TABLE Customer(
 	CID 				    INT 			NOT NULL,
 	FirstName		 	    VARCHAR(16)		NOT NULL,
 	LastName 			    VARCHAR(32)		NOT NULL,
-	ShippingBillingAddress 	VARCHAR(64)     NOT NULL,
-	CreditCardInfo 		    VARCHAR(64)		NOT NULL,
+	ShippingAddress 		VARCHAR(64)     NOT NULL,
+	BillingAddress			VARCHAR(64)		NOT NULL,
+	CCNum					VARCHAR(20),
+	CCExpiry				DATE,
+	CCSecCode				CHAR(3),
+	CCFirstName				VARCHAR(16),
+	CCLastName				VARCHAR(32),
 	Email 				    VARCHAR(32),
-	Phone 				    CHAR(10),
+	Phone 				    CHAR(12),
 	Primary Key(CID)
 );
 
