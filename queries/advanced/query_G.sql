@@ -21,5 +21,5 @@ NATURAL JOIN Book
 NATURAL JOIN Contains
 NATURAL JOIN Transactions
 GROUP BY AuthorName
-)
-	);
+	)
+);
