@@ -1,3 +1,6 @@
 SELECT City, Street
-FROM StoredIn * Warehouse * WrittenBy * Author
+FROM Warehouse
+NATURAL JOIN StoredIn
+NATURAL JOIN WrittenBy
+NATURAL JOIN Author
 WHERE AuthorName LIKE '%Pratchett%';
