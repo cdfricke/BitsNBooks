@@ -1,3 +1,14 @@
+-- CREATE TABLE statements for all relations of the database. Can be used
+-- to re-create the SQLite binary file from scratch if necessary.
+-- After running this script to create the tables, they will be empty.
+-- You will then need to import the original data from the CSV files to
+-- the relations in DataGrip, etc.
+
+-- The following relational schemas are up to date with Project Checkpoint 4.
+
+-- CREATE Customer, Transactions, Review, Book, Author, Warehouse, Publisher,
+-- WrittenBy, View, Contains, StoredIn
+
 CREATE TABLE Customer(
 	CID 				    INT 			NOT NULL,
 	FirstName		 	    VARCHAR(16)		NOT NULL,
