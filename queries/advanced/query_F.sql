@@ -1,8 +1,17 @@
+
 SELECT AuthorName
-FROM Author * WrittenBy * Book * Contains * Transactions
+FROM Author
+NATURAL JOIN WrittenBy
+NATURAL JOIN Book
+NATURAL JOIN Contains
+NATURAL JOIN Transactions
 GROUP BY AuthorName
 HAVING TotalPrice = (
 	SELECT MAX(TotalPrice)
-	FROM Author * WrittenBy * Book * Contains * Transactions
-    GROUP BY AuthorName
+	FROM Author
+NATURAL JOIN WrittenBy
+NATURAL JOIN Book
+NATURAL JOIN Contains
+NATURAL JOIN Transactions
+GROUP BY AuthorName
 );
