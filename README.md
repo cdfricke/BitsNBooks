@@ -6,7 +6,7 @@ Authors: Connor Fricke, Ethan Conley, and Sierra Reis for CSE 3241
 
 ### Part I
 
-See final report PDF, which contains the relational DB _schema_, _entity-relationship diagram_, and other information.
+See final report PDF, which contains the relational DB _entity-relationship diagram_, _schema_, _indexes_, _views_, and other information on the database. The final report also contains the _User Manual_ and previous _Project Checkpoints_.
 
 See required and additional queries in the `queries` directory.
 
