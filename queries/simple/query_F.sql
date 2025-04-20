@@ -1,3 +1,4 @@
+-- Find the customer who has purchased the most books and the total number of books they have purchased
 SELECT FirstName, LastName, TotalBooks
 From Customer NATURAL JOIN (
     SELECT CID, Sum(Qty) as TotalBooks 

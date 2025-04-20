@@ -1,3 +1,4 @@
+-- Provide a list of customer names and e-mail addresses for customers who have spent more than the average customer.
 SELECT FirstName, LastName, Email
 FROM Customer NATURAL JOIN Transactions
 GROUP BY CID

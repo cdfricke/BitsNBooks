@@ -1,14 +1,9 @@
+-- Provide the list of authors who wrote the books purchased by the customers who have spent more than the average customer.
 SELECT AuthorName
-FROM Author
-NATURAL JOIN WrittenBy
-NATURAL JOIN Book
-NATURAL JOIN Contains
-NATURAL JOIN Transactions
-NATURAL JOIN Customer
+FROM Author * WrittenBy * Book * Contains * Transactions * Customer
 WHERE CID IN (
 	SELECT CID
-	FROM Customer
-	NATURAL JOIN Transactions
+	FROM Customer * Transactions
 	GROUP BY CID
 	HAVING SUM(TotalPrice) > (
 		SELECT AVG(TotalSpent)
